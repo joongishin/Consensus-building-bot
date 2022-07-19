@@ -17,4 +17,5 @@ Follow the link to create a tocken for your Telegram bot:
 
 ## Use
 
-Run main.py to try the conversation flow. The sample dialogue can be found in dialogue.py.
+- Run main.py to try the conversation flow. 
+- The sample sentences can be found in dialogue.py.
