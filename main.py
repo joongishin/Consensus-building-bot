@@ -263,11 +263,11 @@ def cancel(update: Update, context: CallbackContext) -> int:
 def main() -> None:
     """Run the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater()
+    updater = Updater("token")
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
 
-    # Add conversation handler with the states GENDER, PHOTO, LOCATION and BIO
+    # Add conversation handler with the states e.g., INTRO, CHOOSE_SOLUTION, CHOOSE_VOTE...
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
         states={
@@ -299,7 +299,6 @@ def main() -> None:
     )
 
     dispatcher.add_handler(conv_handler)
-
 
     # Start the Bot
     updater.start_polling()
