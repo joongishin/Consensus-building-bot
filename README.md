@@ -15,12 +15,12 @@ Consensus-building is an essential process for the success of co-design projects
 2. Follow the link to create a token for your Telegram bot:
 - https://github.com/python-telegram-bot/python-telegram-bot
 
-3. Update the token in the main.py with your Telegram bot's token.
+3. Update the token in the consensus-building-bot.py with your Telegram bot's token.
 
 
       updater = Updater("token")
 
 ## Use
 
-- Run main.py to try the conversation flow. 
+- Run consensus-building-bot.py to try the conversation flow. 
 - The sample sentences can be found in dialogue.py.
