@@ -9,15 +9,13 @@ Consensus-building is an essential process for the success of co-design projects
 ## Setup
 
 1. Install the following libraries:
-- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) (13.12)
-- [Inflect](https://pypi.org/project/inflect/) (5.6.2)
+      - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) (13.12)
+      - [Inflect](https://pypi.org/project/inflect/) (5.6.2)
 
 2. Follow the link to create a token for your Telegram bot:
-- https://github.com/python-telegram-bot/python-telegram-bot
+      - https://github.com/python-telegram-bot/python-telegram-bot
 
 3. Update the token in the consensus-building-bot.py with your Telegram bot's token.
-
-
       updater = Updater("token")
 
 ## Use
